@@ -1,0 +1,75 @@
+GLOBAL ROBOTICS MARKET INTELLIGENCE
+COMBINED ANALYTICAL SUMMARY
+=============================================
+
+Dataset scope: 50,000 records, subject to notebook validation.
+Important limitation: This dataset is synthetic/illustrative. Its results should not be presented as verified real-world market figures.
+Currency limitation: Validate currency_code before comparing financial totals across countries, because the dataset contains multiple currencies.
+
+1. OVERALL FINANCIAL KPIs
+                                     Metric        Value
+      Total recorded revenue (USD-labelled) 1.974753e+09
+        Total estimated cost (USD-labelled) 1.524751e+09
+Total estimated gross profit (USD-labelled) 4.500024e+08
+          Estimated gross profit margin (%) 2.278778e+01
+                          Number of records 4.836700e+04
+
+2. PRODUCT CATEGORY ANALYSIS
+    product_category  records  total_revenue  estimated_cost  estimated_profit  total_quantity  profit_margin_pct
+   AI Infrastructure     9744   1.380992e+09    1.060385e+09      320607424.57         40263.0          23.215734
+    GPU Workstations     9635   3.509775e+08    2.807177e+08       70259779.90         40173.0          20.018315
+     Industrial Edge     9717   1.123745e+08    8.478294e+07       27591591.06         40517.0          24.553243
+Robotics Development     9657   8.869616e+07    6.590071e+07       22795451.77         40287.0          25.700608
+   Edge AI Computing     9613   4.171303e+07    3.296488e+07        8748149.19         40369.0          20.972220
+                 NaN        1   0.000000e+00    0.000000e+00              0.00             0.0                NaN
+
+3. COUNTRY ANALYSIS
+country_name  records  total_revenue  estimated_cost  estimated_profit  profit_margin_pct
+       India    13759   550362537.96    423455259.91      126907278.05          23.058851
+       China     7255   296287583.39    229393940.05       66893643.34          22.577269
+      Taiwan     5949   252078650.58    194603914.11       57474736.47          22.800319
+ South Korea     5635   237871950.21    183582824.08       54289126.13          22.822836
+   Australia     5852   237327396.02    183618647.65       53708748.37          22.630657
+       Japan     5847   230048302.63    177160132.82       52888169.81          22.990028
+   Singapore     4069   170776782.77    132936088.45       37840694.32          22.157985
+         NaN        0           0.00            0.00              0.00                NaN
+
+4. INDUSTRY ANALYSIS
+                    industry  records  total_revenue  estimated_cost  estimated_profit  total_quantity  profit_margin_pct
+                Robotics OEM     8995   380143181.05    294065189.44       86077991.61         38872.0          22.643571
+       Industrial Automation     7478   301538527.38    233429209.11       68109318.27         31166.0          22.587269
+        Warehouse Automation     5528   230719890.44    178723219.55       51996670.89         24090.0          22.536709
+              Machine Vision     5709   228059078.10    175777506.63       52281571.47         23743.0          22.924574
+        Research Institution     4677   196020922.58    150528991.73       45491930.85         19515.0          23.207691
+     Agricultural Technology     4263   176389733.46    135426771.52       40962961.94         17575.0          23.222985
+            Embedded Systems     4073   163089755.77    126153546.61       36936209.16         16237.0          22.647780
+           Mining Automation     2561   100650179.82     77807728.41       22842451.41         10412.0          22.694894
+AI Infrastructure Integrator     2689    99797076.73     76941728.41       22855348.32         10432.0          22.901821
+         Healthcare Robotics     2393    98344858.23     75896915.66       22447942.57          9567.0          22.825741
+
+5. SALES-CHANNEL ANALYSIS
+ sales_channel  records  total_revenue  estimated_cost  estimated_profit  total_quantity  profit_margin_pct
+OEM/Integrator    15392   641664255.93    494964708.72      146699547.21         65068.0          22.862353
+   Distributor    14510   585826875.67    452899755.64      132927120.03         59416.0          22.690512
+        Direct    13597   539727028.40    416480364.71      123246663.69         56349.0          22.834999
+        Online     4867   207535043.56    160405978.00       47129065.56         20776.0          22.708967
+           NaN        0           0.00            0.00              0.00             0.0                NaN
+
+6. MONTHLY REVENUE AND PROFIT TRENDS
+  month     revenue  estimated_profit
+2024-01 60242889.63       13548256.54
+2024-02 53147116.17       11781024.18
+2024-03 64502319.01       14698324.28
+2024-04 56254969.08       12873902.61
+2024-05 63976123.18       15017470.52
+2024-06 60720557.62       13526469.98
+2024-07 60756023.51       13779657.95
+2024-08 62986134.51       14448591.36
+2024-09 55939345.99       12848938.13
+2024-10 56934151.59       12908880.06
+
+INTERPRETATION GUIDANCE
+- Compare revenue, estimated gross profit, and profit margin together.
+- High revenue does not necessarily mean high profitability.
+- Treat country comparisons cautiously until currencies are standardized.
+- Findings describe this dataset and do not establish actual market share or real-world robotics industry performance.
