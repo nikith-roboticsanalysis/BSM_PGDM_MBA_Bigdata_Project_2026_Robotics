@@ -1,0 +1,6 @@
+product_category,total_records,total_revenue,total_estimated_profit,profit_margin_pct
+AI Infrastructure,10040,1423562712.38,330354548.36,23.21
+GPU Workstations,9981,363795740.33,72831593.34,20.02
+Industrial Edge,10038,115514693.28,28370507.98,24.56
+Robotics Development,9982,91631694.15,23562354.73,25.71
+Edge AI Computing,9959,43304668.93,9071619.46,20.95
