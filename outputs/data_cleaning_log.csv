@@ -1,0 +1,6 @@
+metric,value
+original_rows,50000
+original_columns,35
+exact_duplicate_rows_removed,0
+rows_after_duplicate_removal,50000
+rows_in_cleaned_dataset,50000
